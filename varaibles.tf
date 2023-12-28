@@ -1,6 +1,6 @@
 variable "aws_region" {
   type        = string
-  default     = "ap-southeast-4"
+  default     = "ap-southeast-2"
   description = "The AWS Region In Which Terrform Will Manage The Infrastrucre"
 }
 
