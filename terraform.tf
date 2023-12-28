@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    region = "ap-southeast-2"
+    region = "ap-southeast-4"
     dynamodb_table = "terraform-state-table"
   }
 }
